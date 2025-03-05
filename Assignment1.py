@@ -32,12 +32,9 @@ def star_shape(n):
 # This function should return a list of numbers from 1 to limit, replacing multiples of 3 with "Multiple of 3".
 def count_multiples_of_3(limit):
     num = limit
-    result = []
     while num <= 20 :
         if num % 3 == 0:
             return "Multiple of 3"
-        elif num == 11:
-            return num
         else:
             return num
         num += 1
